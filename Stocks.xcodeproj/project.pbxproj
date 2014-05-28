@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D326131193643EB007951CA /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D326130193643EB007951CA /* ForeignStockHolding.m */; };
 		8DC6DB08193589F100C1D3BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC6DB07193589F100C1D3BC /* Foundation.framework */; };
 		8DC6DB0B193589F100C1D3BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC6DB0A193589F100C1D3BC /* main.m */; };
 		8DC6DB0F193589F100C1D3BC /* Stocks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC6DB0E193589F100C1D3BC /* Stocks.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8D32612F193643EB007951CA /* ForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForeignStockHolding.h; sourceTree = "<group>"; };
+		8D326130193643EB007951CA /* ForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForeignStockHolding.m; sourceTree = "<group>"; };
 		8DC6DB04193589F100C1D3BC /* Stocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC6DB07193589F100C1D3BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DC6DB0A193589F100C1D3BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				8DC6DB0A193589F100C1D3BC /* main.m */,
+				8D32612F193643EB007951CA /* ForeignStockHolding.h */,
+				8D326130193643EB007951CA /* ForeignStockHolding.m */,
 				8DC6DB1519358A2900C1D3BC /* StockHolding.h */,
 				8DC6DB1619358A2900C1D3BC /* StockHolding.m */,
 				8DC6DB0E193589F100C1D3BC /* Stocks.1 */,
@@ -144,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D326131193643EB007951CA /* ForeignStockHolding.m in Sources */,
 				8DC6DB1719358A2900C1D3BC /* StockHolding.m in Sources */,
 				8DC6DB0B193589F100C1D3BC /* main.m in Sources */,
 			);
@@ -259,6 +265,7 @@
 				8DC6DB14193589F100C1D3BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
